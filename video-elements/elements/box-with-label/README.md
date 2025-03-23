@@ -1,5 +1,5 @@
-# Estimated Cost Box
-The `estimated cost box` will render a nice expanding box animation for the estimated cost of an object in a video.
+# Box with Label
+The `box with label` will render a nice expanding box animation for a box that can be used to add separate graphics into.
 
 ## Example 
 ![example](assets/example.png)
@@ -16,7 +16,8 @@ If you want to modify this component follow the instructions below.
 4. Open up the new project
 5. You can temporarily enable `Background (Hide Me)` or import a new background based on a image render of your video to get a feel for how the element will look in your scene. 
 6. **Important** Always edit things on the `Design` tab to prevent ruining animations that are already setup for you.
-7. Expand to tree on the left search for `Box Contents` → `{Window Label}` to update the label of the box.
+7. Expand to tree on the left search for `Box Contents` → `{Cost}` to update the price of the box.
+8. Expand to tree on the left search for `Box Contents` → Title → `{Date}` to update the last date the price was updated. This to give the user an indicated of how outdated the price could be.
 
 ## Fine tune content and animation based on your current video
 1. Use your video editor software to create a render (image) of the moment you want to add the element.
