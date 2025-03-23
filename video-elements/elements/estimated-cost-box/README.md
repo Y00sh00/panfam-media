@@ -14,22 +14,24 @@ If you want to modify this component follow the instructions below.
 2. Go to `Personal Files`
 3. Drag the file `estimated_cost_box.rev` to your workspace
 4. Open up the new project
-5. You can temporarily enable `Background (Hide Me)` or import a new background based on a image render of your video to get a feel for how the element will look in your scene.
-6. Expand to tree on the left search for `Box Contents` → `{Cost}` to update the price of the box.
-7. Expand to tree on the left search for `Box Contents` → Title → `{Date}` to update the last date the price was updated. This to give the user an indicated of how outdated the price could be.
+5. You can temporarily enable `Background (Hide Me)` or import a new background based on a image render of your video to get a feel for how the element will look in your scene. 
+6. **Important** Always edit things on the `Design` tab to prevent ruining animations that are already setup for you.
+7. Expand to tree on the left search for `Box Contents` → `{Cost}` to update the price of the box.
+8. Expand to tree on the left search for `Box Contents` → Title → `{Date}` to update the last date the price was updated. This to give the user an indicated of how outdated the price could be.
 
 ## Export
 Once you made all the adjustments and want to add create the export of the animation to add to your video editor.
 
-1. Press the menu
-2. Press `Open Render Queue`
-3. In the new window select the tab `Queued`
-4. And select the `+` icon
-5. Switch mode to `Animation`
-6. Format to `PNG Seq` and `60fps`
-7. Press the ▶ button
-8. Once this is done, go to the completed tab
-9. Press ↓ button download the archive
+1. Be sure the `Background (Hide Me)` layer is hidden
+2. Press the menu
+3. Press `Open Render Queue`
+4. In the new window select the tab `Queued`
+5. And select the `+` icon
+6. Switch mode to `Animation`
+7. Format to `PNG Seq` and `60fps`
+8. Press the ▶ button
+9. Once this is done, go to the completed tab
+10. Press ↓ button download the archive
 
 ## Import to video editor
 
