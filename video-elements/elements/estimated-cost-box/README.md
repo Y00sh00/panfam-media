@@ -19,6 +19,12 @@ If you want to modify this component follow the instructions below.
 7. Expand to tree on the left search for `Box Contents` → `{Cost}` to update the price of the box.
 8. Expand to tree on the left search for `Box Contents` → Title → `{Date}` to update the last date the price was updated. This to give the user an indicated of how outdated the price could be.
 
+## Fine tune content and animation based on your current video
+1. Use your video editor software to create a render (image) of the moment you want to add the element.
+2. Import this image into Rive by going to `Assets` → + and then add your file
+3. Switch back to `Hierarchy`, right-click `Background (Hide Me)` and select `replace` then select your new image
+4. You can now fine-tune the animation to match the scene composition
+
 ## Export
 Once you made all the adjustments and want to add create the export of the animation to add to your video editor.
 
