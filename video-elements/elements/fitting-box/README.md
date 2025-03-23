@@ -1,5 +1,5 @@
 # Box with Label
-The `pilot-box` will render a nice expanding box animation with implants and estimated cost of those implants.
+The `fitting-box` will render a nice expanding box animation with the fit of a ship.
 
 ## Example 
 ![example](assets/example.png)
@@ -16,11 +16,9 @@ If you want to modify this component follow the instructions below.
 4. Open up the new project
 5. You can temporarily enable `Background (Hide Me)` or import a new background based on a image render of your video to get a feel for how the element will look in your scene. 
 6. **Important** Always edit things on the `Design` tab to prevent ruining animations that are already setup for you.
-7. Expand to tree on the left search for `Box Contents` → `{Augmentation Slot X}` in this element you will find a label to adjust the text and an image to adjust the icon. **note:** As this can be a bit tedious to edit, I will likely in time make a separate component to generate an image from text for the implant images & labels. 
-8. Expand the tree on the left search for `Box Contents` → `Card Footer` → `Estimated Cost` → `{Cost}` to set the estimated cost.
-9. Expand the tree on the left search for `Box Contents` → `Card Footer` → `{Date}` to set the date of the price check.
+7. Expand to tree on the left search for `Box Contents` → `Select the slot to modify` in this element you will find a label to adjust the text and an image to adjust the icon. **note:** As this can be a bit tedious to edit, I will likely in time make a separate component to generate an image from text for the fitting images & labels. 
 
-**Note:** If you need more room on the box, you can select the `Box` and adjust it downward. This won't affect the animation as it animates to 100% height.
+**Note:** If you need more room on the box, you can select the `Box` and adjust it downward. This won't affect the animation as it animates to 100% height. 
 
 ## Fine tune content and animation based on your current video
 1. Use your video editor software to create a render (image) of the moment you want to add the element.
