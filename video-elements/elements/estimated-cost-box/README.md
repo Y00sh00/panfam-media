@@ -45,3 +45,4 @@ Once you made all the adjustments and want to add create the export of the anima
 
 Each video editor is slightly different but generally you want these settings:
 - `Use Original Size` to ensure the UX matches future elements you will also import to the video. 
+- `Frame Rate` should be `60px`
