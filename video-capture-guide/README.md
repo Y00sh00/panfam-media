@@ -25,6 +25,7 @@
 7. In the video editor create a looping video by cutting the footage at the right ship rotations positions
 
 ## Capture the Galaxy Map
+1. To clean up the map you can use NVIDIA and add the Detail profile.
 1. Be in a corp without jump bridges or allies with jump bridges
 2. 1. Make sure your transparency in your client is off
 3. In-game map on fullscreen, the largest possible.
