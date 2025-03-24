@@ -1,5 +1,5 @@
 # Box with Label
-The `pilot-box` will render a nice expanding box animation with implants and estimated cost of those implants.
+The `pilot-box` will render a nice expanding box animation with implants, boosters and their estimated cost.
 
 ## Example 
 ![example](assets/example.png)

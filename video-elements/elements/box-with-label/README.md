@@ -1,8 +1,8 @@
 # Box with Label
-The `box with label` will render a nice expanding box animation for a box that can be used to add separate graphics into.
+The `box with label` will render a nice expanding box animation for a box that can be used to add separate graphics into. You would add the additional gfx in your video editor.
 
 ## Example 
-![example](assets/example.png)
+![example](assets/example.png)_
 
 ## Example Animation
 Note: Since it a GIF it as not as smooth as the import that will be in your video which will be 60 fps vs 30 fps of this give below. The speed of the animation is also slightly sped up due the converting from 60 to 30 fps.
