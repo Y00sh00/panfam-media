@@ -28,7 +28,7 @@
 1. Be in a corp without jump bridges or allies with jump bridges
 2. 1. Make sure your transparency in your client is off
 3. In-game map on fullscreen, the largest possible.
-4. Color wise set it to: ???
+4. Color wise set it to: Empire & Pirate Factions
 5. Click on a region to only highlight that region name and the lines, not any other labels. I use Oasa as it's hardly noticeable when highlighted.
 6. The top controls you just nuke out with a color block in your video editor
 7. Position your camera on the map in a way where you want it to turn from
