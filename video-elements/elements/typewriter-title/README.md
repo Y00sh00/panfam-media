@@ -1,5 +1,5 @@
-# Box with Label
-The `box with label` will render a nice expanding box animation for a box that can be used to add separate graphics into. You would add the additional gfx in your video editor.
+# Typewriter title
+The `typewrite-title` will render a title and sub title being typed out.
 
 ## Example 
 ![example](assets/example.png)
@@ -16,8 +16,12 @@ If you want to modify this component follow the instructions below.
 4. Open up the new project
 5. You can temporarily enable `Background (Hide Me)` or import a new background based on a image render of your video to get a feel for how the element will look in your scene. 
 6. **Important** Always edit things on the `Design` tab to prevent ruining animations that are already setup for you.
-7. Expand to tree on the left search for `Box Contents` → `{Cost}` to update the price of the box.
-8. Expand to tree on the left search for `Box Contents` → Title → `{Date}` to update the last date the price was updated. This to give the user an indicated of how outdated the price could be.
+7. By default, you will see nothing, this is due to how the animation is setup. You can select `ROW 1 - ANIMATE ME` and expand the object to the right to see your text for adjustments. This is also the element we need to adjust the animation on later.
+8. Expand to tree on the left search for `Row {X}` → `Title` → `{TEXT}` to update the text of each label.
+9. When updating the text you will also need to adjust the animation so the aforementioned `ROW 1 - ANIMATE ME` clipping masks jumps at the right intervals, go to `Animate` tab. 
+10. Per row of text you will see 2 animation properties `ROW 1 - ANIMATE ME` which controls how much of the text is visible and `ROW 1 - Cursor` which has a blinking animation setup so it looks like a cursor.
+11. Go through each keyframe (every 5 ms) of `ROW 1 - ANIMATE ME` and make sure the box is expanded enough for each next letter to show, also include spaces in this animation!
+12. After going through each frame adjust `ROW 1 - Cursor` so that it ends hidden and covers your entire animation.
 
 ## Fine tune content and animation based on your current video
 1. Use your video editor software to create a render (image) of the moment you want to add the element.

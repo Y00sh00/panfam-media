@@ -37,4 +37,13 @@ Will render a nice expanding box animation with implants, boosters and their est
 ### Example
 ![example](pilot-box/assets/example.png)
 
+## Typewriter Title
+[Go to element](typewriter-title)
+
+### Purpose
+Will render a title and sub title being typed out.
+
+### Example
+![example](typewriter-title/assets/example.gif)
+
 
