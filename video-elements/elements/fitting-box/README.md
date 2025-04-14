@@ -18,6 +18,14 @@ If you want to modify this component follow the instructions below.
 6. **Important** Always edit things on the `Design` tab to prevent ruining animations that are already setup for you.
 7. Expand to tree on the left search for `Box Contents` → `Select the slot to modify` in this element you will find a label to adjust the text and an image to adjust the icon. **note:** As this can be a bit tedious to edit, I will likely in time make a separate component to generate an image from text for the fitting images & labels. 
 
+## Positioning the Line
+If you want to position the pointer and line precisely you can do so quite easily with the following instructions
+1. First lets make sure we can see what we are doing, Find `Pointer` in the hierarchy and select it in the properties press the eye icon on the Clip segment. This ensures that the clip mask which is used for the animation is currently disabled. 
+2. Expand to tree on the left search for `Pointer` → `Pointer Circle` position this exactly where you want the animation to start.
+3. Expand to tree on the left search for `Pointer` → `Line Top` → `Path` and press the `Edit Vertices` button.
+4. You can now make the line be whatever you want.
+5. Turn on the visibility which you disabled in step 1 to restore the animation.
+
 **Note:** If you need more room on the box, you can select the `Box` and adjust it downward. This won't affect the animation as it animates to 100% height. 
 
 ## Fine tune content and animation based on your current video
