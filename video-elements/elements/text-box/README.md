@@ -1,5 +1,5 @@
-# Pilot Box
-The `pilot-box` will render a nice expanding box animation with implants, boosters and their estimated cost.
+# Text Box
+The `pilot-box` will render a nice expanding box animation for Text.
 
 ## Example 
 ![example](assets/example.png)
@@ -16,11 +16,11 @@ If you want to modify this component follow the instructions below.
 4. Open up the new project
 5. You can temporarily enable `Background (Hide Me)` or import a new background based on a image render of your video to get a feel for how the element will look in your scene. 
 6. **Important** Always edit things on the `Design` tab to prevent ruining animations that are already setup for you.
-7. Expand to tree on the left search for `Box Contents` → `{Augmentation Slot X}` in this element you will find a label to adjust the text and an image to adjust the icon. **note:** As this can be a bit tedious to edit, I will likely in time make a separate component to generate an image from text for the implant images & labels. 
-8. Expand the tree on the left search for `Box Contents` → `Card Footer` → `Estimated Cost` → `{Cost}` to set the estimated cost.
-9. Expand the tree on the left search for `Box Contents` → `Card Footer` → `{Date}` to set the date of the price check.
+7. Expand to tree on the left search for `Box Contents` → `{Text}` Set the content of this text to what you want to display. 
+8. Expand to tree on the left search for `Box` → `Box` → `BoxShape (RESIZE ME!)`  It's very important you resize this one and drag the lowest line up or done to preserve the animation. Make the box fit the text nicely (uniform paddings).
+9. Last thing to do is fix the bottom line, again search for `Line Bottom (MOVE ME)` you want to position this element to be equal to the lowest line of the box,
 
-**Note:** If you need more room on the box, you can select the `Box` and adjust it downward. This won't affect the animation as it animates to 100% height.
+**Note**: If you need to box to be wider instead of longer this is possible but you will need to modify the two line vertices of `Line Bottom` and `Line Top` and in the animation find these transformations as well to edit the paths there as well. If you need help with this just poke me on Discord.
 
 ## Fine tune content and animation based on your current video
 1. Use your video editor software to create a render (image) of the moment you want to add the element.
@@ -46,6 +46,7 @@ Once you made all the adjustments and want to add create the export of the anima
 
 1. Extract the archive in your video project folder, it will be a huge number of `png` images so extract them to their own folder.
 2. In your video editor of choice add an `Image Sequence`
+3. Add a fade-out effect at the end of the text segment
 
 Each video editor is slightly different but generally you want these settings:
 - `Use Original Size` to ensure the UX matches future elements you will also import to the video. 
