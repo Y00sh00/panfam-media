@@ -22,6 +22,15 @@ If you want to modify this component follow the instructions below.
 
 **Note:** If you need more room on the box, you can select the `Box` and adjust it downward. This won't affect the animation as it animates to 100% height.
 
+## Positioning the Line
+If you want to position the pointer and line precisely you can do so quite easily with the following instructions
+1. First lets make sure we can see what we are doing, Find `Pointer` in the hierarchy and select it in the properties press the eye icon on the Clip segment. This ensures that the clip mask which is used for the animation is currently disabled.
+2. Expand to tree on the left search for `Pointer` → `Pointer Circle` position this exactly where you want the animation to start.
+3. Expand to tree on the left search for `Pointer` → `Line Top` → `Path` and press the `Edit Vertices` button.
+4. You can now make the line be whatever you want. **note:** that if you need a lot more space and want a much longer line you'd need to expand the canvas and move the `ClipMask` further to the right.
+5. Turn on the visibility which you disabled in step 1 to restore the animation.
+
+
 ## Fine tune content and animation based on your current video
 1. Use your video editor software to create a render (image) of the moment you want to add the element.
 2. Import this image into Rive by going to `Assets` → + and then add your file
